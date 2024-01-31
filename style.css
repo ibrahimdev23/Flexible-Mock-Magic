@@ -18,6 +18,7 @@
   
 .nav-links {
     list-style: none;
+    display: flex;
 }
   
 .nav-item a {
@@ -49,6 +50,7 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    align-content: space-between;
 }
 
 footer img {
@@ -56,6 +58,7 @@ footer img {
 }
 
 .flex-main {
+    display: flex;
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
@@ -82,3 +85,8 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
